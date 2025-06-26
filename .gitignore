@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Django
+db.sqlite3
+*.sqlite3
+
+# Environments
+venv/
+env/
+
+# JetBrains IDE (PyCharm)
+.idea/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# dotenv
+.env
+
+# files
+test_models.py
+test_models_2.py
+/media/
+
+views_1.py
+serializers_1.py
+t.py
+requirements.txt
