@@ -1,12 +1,25 @@
 # storefront3
+## 📁 Project Structure Overview
 
-Django Project: storefront \
-Django Apps: store, tags, playground, likes, core
+```
+storefront3/
+├── storefront/   # Project Settings Here
+├── tags/
+├── playground/
+├── store/
+├── likes/
+├── core/
+├── manage.py
+├── Pipfile
+├── .env
+└── README.md
+```
 
-core - use for users related tasks (see in settings)
+core - use for user authentication related tasks (see in settings)
+
+
+## URLS
 ```bash
-URLS
-
     "products": "http://127.0.0.1:8000/store/products/",
     "collections": "http://127.0.0.1:8000/store/collections/",
     "carts": "http://127.0.0.1:8000/store/carts/",
@@ -14,6 +27,8 @@ URLS
     "orders": "http://127.0.0.1:8000/store/orders/"
 
     "hello": "http://127.0.0.1:8000/playground/hello/"
+
+    "admin": "http://127.0.0.1:8000/admin/"
 ```
 
 📧 Visit the [http://127.0.0.1:8000/playground/hello/](http://127.0.0.1:8000/playground/hello/) to trigger a fake email using SMTP.
@@ -91,21 +106,3 @@ Install Redis Python client:
 ```bash
 pipenv install redis
 ```
-
----
-
-## 📁 Project Structure Overview
-
-```
-storefront3/
-├── store/               # Main app
-├── tags/
-├── playground/
-├── likes/
-├── core/
-├── manage.py
-├── Pipfile
-├── .env
-└── README.md
-```
----
